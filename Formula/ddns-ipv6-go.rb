@@ -1,30 +1,30 @@
 class DdnsIpv6Go < Formula
   desc "Monitor IPv4/IPv6 changes and auto-renew IP certificates with certbot"
   homepage "https://github.com/PengGeGe18/ddns-ipv6-go"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/PengGeGe18/ddns-ipv6-go/releases/download/v#{version}/ddns-ipv6-go_#{version}_darwin_x86_64.tar.gz"
-      sha256 "38a80070da7160c5ea383b5d64c35dc5a97ae0da9d1da90e2fd6c4618126252a"
+      sha256 "1f3dc1809cfff7037b3ae2424570e2c6c8c693c3bd7697b0e3dbc00a09fe39f7"
     end
 
     on_arm do
       url "https://github.com/PengGeGe18/ddns-ipv6-go/releases/download/v#{version}/ddns-ipv6-go_#{version}_darwin_arm64.tar.gz"
-      sha256 "f7e7e3771d799a194aa1c1e099240e6102c6d9ce9cf892c897bafaf552f12b58"
+      sha256 "e625e2514dc9d6ec66b4793905c5c594005978b4280bd316f3bcf0ae91eafaa8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/PengGeGe18/ddns-ipv6-go/releases/download/v#{version}/ddns-ipv6-go_#{version}_linux_x86_64.tar.gz"
-      sha256 "8dc5f261301f2069cf15174498d00c4310012353c98c19df7d5c9961365e9422"
+      sha256 "119e24a0933f45b58f7bada028edccae452e255e9f92a276da5413fca6f9fd43"
     end
 
     on_arm do
       url "https://github.com/PengGeGe18/ddns-ipv6-go/releases/download/v#{version}/ddns-ipv6-go_#{version}_linux_arm64.tar.gz"
-      sha256 "029b9ff5c31ebf58fb3528b7a3abd4a2abcc46f14a07d363e5088715b385f5d3"
+      sha256 "51a015d0087b5be8af2c95fb6001c476e98d2180e578f26173cb1ccc3b7ddaf4"
     end
   end
 
